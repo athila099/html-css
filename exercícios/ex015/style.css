@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(218, 232, 235);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: silver;
+}
+
+p {
+  color: black;
+  font-family: cursive;
+  text-align: justify;
+  font-size: 15px;
+}
+
+a {
+    font-family: fantasy;
+    font-size: 15px;
+    color: black;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: love;
+    src: url('fonts/Bold Love.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+
+    /*
+    Tipos de format()
+
+    opentype - (otf)
+    truetype - (ttf)
+    embedded-opentype
+    svg
+    */
+}
+
+        body {
+            font-family: 'Open Sans', Helvetica, sans-serif;
+            font-size: 13px;
+        }
+
+        h1 {
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae molestias maxime a cum. Nisi praesentium libero alias sunt rem quibusdam, eos possimus quam? Nesciunt aperiam praesentium minus? Debitis, quae quo.</p>
+</body>
+</html>
