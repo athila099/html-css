@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    background: #f5f5f5;
+}
+
+/* Cabeçalho */
+.topo {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.topo h1 {
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.topo h2 {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Estrofes em fundo branco */
+.estrofe {
+    padding: 40px;
+    font-size: 20px;
+    line-height: 1.7em;
+}
+
+.bloco-branco {
+    background: white;
+}
+
+/* Imagem com texto sobreposto */
+.imagem-estrofe {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.texto-sobre-imagem {
+    position: relative;
+    background-image: url('imagens/background001.jpg');
+    
+}
