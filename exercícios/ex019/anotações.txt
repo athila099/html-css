@@ -1,0 +1,6 @@
+fundo001 :
+
+para deixar as divs do lado horizontalmente, usar a tag no css: display: inline-block
+
+para adicionar imagens de fundo, usar-se a tag em css: background-image: url('')
+
