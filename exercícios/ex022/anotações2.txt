@@ -7,3 +7,18 @@ para adicionar imagens de fundo, usar-se a tag em css: background-image: url('')
 fundo003: 
 
 para mudar a posição da imagem de fundo usa a tag em css: background-position: (oq você quiser)
+
+fundo006: 
+
+quando você coloca background-size: contain, esse contain server para deixar a imagem 100% exibida, tem outro que seria o cover(cobrir),
+ele vai cobrir a tela inteira, independente da tela, se for um celular, ele vai caber, mas não vai ser 100% exibida
+
+para ficar com o fundo travado, usa-se background-attachment: fixed; attachment significa vínculo, e assim você não vai ver a tela rolando
+
+
+quando coloca a position absolute, pode usar as tags left, top, right e bottom
+
+o transform, usa para mudar de posição das caixas, mas não muda literalmente
+ex: transform: translate(-50%, -50%); quando usa positivo ele muda para direita e para baixo, quando negativo, ele muda para esquerda e para
+cima
+obs: usando porcentagem, facilita muito mais do que ficar testando valores para achar a posição correta
