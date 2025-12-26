@@ -16,9 +16,25 @@ ele vai cobrir a tela inteira, independente da tela, se for um celular, ele vai 
 para ficar com o fundo travado, usa-se background-attachment: fixed; attachment significa vínculo, e assim você não vai ver a tela rolando
 
 
-quando coloca a position absolute, pode usar as tags left, top, right e bottom
-
+quando coloca a position absolute, pode usar as tags left, top
 o transform, usa para mudar de posição das caixas, mas não muda literalmente
 ex: transform: translate(-50%, -50%); quando usa positivo ele muda para direita e para baixo, quando negativo, ele muda para esquerda e para
 cima
 obs: usando porcentagem, facilita muito mais do que ficar testando valores para achar a posição correta
+
+
+
+
+1-Como deixar as divs juntas horizontalmente?
+R:usando display: inline-block; certo
+2-Como fazer o fundo do site não rolar junto com o conteúdo?
+R:background-attachment: fixe; certo
+3-Como mudar a posição do fundo do site?
+R: background-position (oq desejar); certo
+4-Caso a posição esteja absoluta, poderá usar duas tags a mais, quais são elas?
+R: left: (qualquer valor); certo
+   top: (qualquer valor); certo
+5-Como deixar o fundo do site 100% exibida?
+R: background-size: contain; certo
+6-Como deixar o fundo do site coberto, para que ocupe o espaço da viewport?
+R:background-size: cover; certo

@@ -1,0 +1,3 @@
+text-transform: uppercase (essa tag de css transforma tudo pra letra maiúsculas
+font-variant: small-casps (Tudo vai estar em maiúsculo, mas a primeira letra das palavras vão estar maiores
+line-height: (espaçamento das linhas)
