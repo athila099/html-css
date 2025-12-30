@@ -1,0 +1,4 @@
+o border-collapse: '' (serve para mudar a parte de fora, para separar e juntar) 
+
+vertical-align: (serve para mudar de posição da célula, como se fosse uma background-position, mas para isso tem que usar o text-align
+e depois usar o vertical-align)
