@@ -11,10 +11,29 @@
 
         table {
             width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: darkgray;
         }
 
         td.num {
             text-align: right;
+        }
+
+        tbody > tr:nth-child(2n) { /*Efeito zebrado no pseudo-classe nth-child("número"n)*/
+            background-color: lightgray;
         }
 
         td, th {
@@ -23,7 +42,7 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
         }
     </style>
@@ -44,8 +63,10 @@
     <table>
         <thead> 
             <tr>
-                <th>Estado </th>
-                <th>População</th>
+                <CAPTIon>População das Unidades Federativas</CAPTIon> <!--LEGENDA-->
+                <!--scope="col" significa para identificar uma coluna em códigos-->
+                <th scope="col">Estado </th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -61,10 +82,105 @@
                 <td>Rio De Janeiro</td>
                 <td class="num">17 264 943</td>
             </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>84.352.783</strong></td>
             </tr>
         </tfoot>
