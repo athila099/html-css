@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
+    <title>Parte 1 do desafio</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
-        
-        table {
+
+        table   {
             width: 400px;
-            border-collapse: collapse;
         }
+
         tr, td {
             border: 1px solid black;
             padding: 10px;
@@ -21,22 +21,29 @@
     </style>
 </head>
 <body>
-    <h1>Mesclagem de Células</h1>
     <table>
         <tr>
-            <td rowspan="2">A</td>
-            <td colspan="2">B</td>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
         </tr>
         <tr>
+            <td rowspan="4">C</td>
+            <td>D</td>
             <td>E</td>
-            <td rowspan="2">F</td>
+            <td>F</td>
         </tr>
         <tr>
-            <td colspan="2">G</td>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
         </tr>
         <tr>
             <td>J</td>
-            <td colspan="2">K</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td colspan="4">N</td>
         </tr>
     </table>
 </body>
